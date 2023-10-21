@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h2>Javascript Student information CRUD</h2>
+    </div>
+
+    <main>
+        <div class="wrap">
+            
+        <div class="form">
+            <h3>Insert Data</h3>
+            <form action="">
+                <div class="formgroup">
+                    <input type="text" placeholder="Enter Student Name:" id="name">
+                </div>
+                <div class="formgroup">
+                    <input type="number" placeholder="Enter Student ID:" id="id">
+                </div>
+                <div class="formgroup">
+                    <input type="text" placeholder="Enter Student Dept:" id="dept">
+                </div>
+                <div class="formgroup">
+                    <input type="number" placeholder="Enter Student CGPA:" id="cgpa">
+                </div>
+                <input type="submit" value="Add Data" id="btn">
+            </form>
+        </div>
+
+        <div class="output">
+            <h3>Student Lists</h3>
+            <table>
+                <thead>
+                    <th>Name:</th>
+                    <th>ID:</th>
+                    <th>DEPD:</th>
+                    <th>CGPA</th>
+                </thead>
+                <tbody id="tbody">
+                   
+                </tbody>
+            </table>
+        </div>
+        </div>
+    </main>
+</body>
+
+<script src="main.js"></script>
+</html>
